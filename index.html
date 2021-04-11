@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My html page</title>
+        <link rel="icon" href="Youtube_Logo.jpg">
+    </head>
+    <body>
+        <header>
+            <h1>Name: Tony Liu</h1>
+            <h2>School: UCSD</h2>
+            <h3>Middle Name: Shaohua</h3>
+            <hr>
+        </header>
+
+        <main>
+            <div class="Favorite Hobbies Div">
+                <p><strong>Favorite Hobbies</strong></p>
+                <ul>
+                    <li>Playing Videogames</li>
+                    <li><em>Reading</em></li>
+                    <li>Programming</li>
+                </ul>
+            </div>
+
+            <br>
+
+            <div class="Favorite Foods Div">
+                <p>Favorite <span style="color:red;font-weight:bold">Foods</span> in <b>ranked</b> order from most favorite to least favorite</p>
+                <ol>
+                    <li>Sushi</li>
+                    <li>Ramen</li>
+                    <li>Pho</li>
+                    <li><i>Pizza</i></li>
+                </ol>
+            </div>
+
+            <br>
+
+            <div class="Favorite Image Div">
+                <p>My favorite image</p>
+                <img src="Youtube_Logo.jpg" alt="Youtube Logo image" width="100" height="100">
+            </div>
+
+            <div class="Favorite song">
+                <p>My favorite song</p>
+                <audio controls
+                    src="favorite_song.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                </audio>
+            </div>
+
+            <div class="Classes">
+                <p>Favorite classes taken and classes looking forward to take</p>
+                <input type="checkbox" checked>
+                <label>CSE 100</label>
+                <input type="checkbox" checked>
+                <label>ECE 101</label>
+                <input type="checkbox" checked>
+                <label>CSE 151A</label>
+                <input type="checkbox" checked>
+                <label>ECE 111</label>
+                <input type="checkbox">
+                <label>CSE 110</label>
+                <input type="checkbox">
+                <label>CSE 151B</label>
+                <input type="checkbox">
+                <label>CSE 135</label>
+                <input type="checkbox">
+                <label>CSE 120</label>
+                <input type="checkbox">
+                <label>CSE 160</label>
+                <input type="checkbox">
+                <label>ECE 175A</label>
+            </div>
+
+            <br>
+
+            <div class="favorite number">
+                <p>My favorite number</p>
+                <input type="radio" checked>
+                <label>0</label>
+            </div>
+
+            <br>
+
+            <div class="Important Date">
+                <p>Important date to me</p>
+                <input type="date"
+                value="2015-05-28">
+            </div>
+
+            <br>
+
+            <div class="Brand div">
+                <label for="Brand_names_list">Choose a brand:</label>
+                <input list="Brand_names" id="Brand_names_list" name="Brand_names_list" />
+
+                <datalist id="Brand_names">
+                    <option value="Converse">
+                    <option value="Jansports">
+                    <option value="Levi">
+                    <option value="Nike">
+                </datalist>
+            </div>
+            
+            <br>
+
+            <div class="Cars">
+                <label for="Cars_list">Choose a car:</label>
+                <select name="cars" id="Cars_list">
+                    <option value="Ford">Ford</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Toyota">Toyota</option>
+                  </select>
+                
+            </div>
+
+            <div class="The video we need">
+                <p>Respect the techlead</p>
+                <video controls
+                    width = "320"
+                    height = "240"
+                    src="techlead.mp4"
+                >
+                    Your browser does not support the
+                    <code>video</code> element.
+                </video>
+            </div>
+
+            <details>
+                <summary>In summary</summary>
+                <p>
+                    I am not the Techlead. Respect the Techlead.
+                </p>
+            </details>
+        </main>
+
+        <br>
+
+        <footer>
+            <form>
+
+            </form>
+
+            <fieldset>
+                <label for="name">name:</label>
+                <input type="text" id="name" name="name"><br>
+                <label>message:</label>
+                <textarea></textarea>
+                <button type="button" onclick="alert('Great success!')">Submit</button>
+            </fieldset>
+
+            <nav>
+                <a href="https://github.com/tsl001">My Github</a>
+                <a href="https://youtube.com">My favorite website</a>
+            </nav>
+        </footer>
+    </body>
+</html>

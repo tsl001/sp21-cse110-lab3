@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My html page</title>
         <link rel="icon" href="Youtube_Logo.jpg">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
@@ -17,7 +18,7 @@
         <main>
             <div class="Favorite Hobbies Div">
                 <p><strong>Favorite Hobbies</strong></p>
-                <ul>
+                <ul class="flex-container-hobbies">
                     <li>Playing Videogames</li>
                     <li><em>Reading</em></li>
                     <li>Programming</li>
@@ -52,7 +53,7 @@
                 </audio>
             </div>
 
-            <div class="Classes">
+            <div class="flex-container-classes">
                 <p>Favorite classes taken and classes looking forward to take</p>
                 <input type="checkbox" checked>
                 <label>CSE 100</label>
@@ -111,10 +112,10 @@
             <div class="Cars">
                 <label for="Cars_list">Choose a car:</label>
                 <select name="cars" id="Cars_list">
-                    <option value="Ford">Ford</option>
-                    <option value="BMW">BMW</option>
-                    <option value="Honda">Honda</option>
-                    <option value="Toyota">Toyota</option>
+                    <option value="Ford" class="flex-ford">Ford</option>
+                    <option value="BMW" class="flex-bmw">BMW</option>
+                    <option value="Honda" class="flex-honda">Honda</option>
+                    <option value="Toyota" class="flex-toyota">Toyota</option>
                   </select>
                 
             </div>
@@ -137,6 +138,15 @@
                     I am not the Techlead. Respect the Techlead.
                 </p>
             </details>
+
+            <div class="grid-container-quotes" id="grid-container-quotes-id">
+                <p class="quote1">"Hey Techlead here and welcome back to another episode,"</p>
+                <p class="quote2">"As an ex-google techlead"</p>
+                <p class="quote3">"As an ex-google ex-facebook techlead"</p>
+                <p class="quote4"> "As an ex-google ex-facebook multimillionarie techlead"</p>
+            </div>
+
+
         </main>
 
         <br>
@@ -157,6 +167,12 @@
             <nav>
                 <a href="https://github.com/tsl001">My Github</a>
                 <a href="https://youtube.com">My favorite website</a>
+            </nav>
+
+            <div class="foot-div">
+                <p>hi</p>
+                <label>No</label>
+                <p>Hello</p>
             </nav>
         </footer>
     </body>

@@ -1,0 +1,155 @@
+h1 {
+    background-color: rgb(230,210,200);
+    margin:auto;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px 25px 30px 10px; /* Absolute unit */
+    border-style: inset; 
+    border-width: 1cm; /* Absolute unit */
+    border-radius: 10%; /* Relative unit*/
+    border-color:beige;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 20px; /* Absolute unit */
+    margin-bottom: 30px; /* Absolute unit */
+    margin-left: 10px; /* Absolute unit */
+    margin-right: 25px; /* Absolute unit */
+    text-align: center;
+}
+
+div {
+    display: inline;
+}
+
+p {
+    height: 5em; /* Relative unit*/
+}
+
+summary {
+    position: static;
+    height: 10rem; /* Relative unit*/
+    width: 10rem;
+    left: 40px;
+}
+
+summary:hover {
+    color: red;
+}
+
+summary:active {
+    color: green;
+}
+
+video {
+    height: 1000px;
+    width: 1000px;
+    max-height: 750px;
+    max-width: 750px;
+}
+
+label {
+    position:relative;
+    left: 40px;
+}
+
+input{
+    position: relative;
+    left:40px;
+}
+
+select {
+    position: relative;
+    left: 40px;
+}
+
+textarea {
+    position: relative;
+    left:40px;
+}
+
+.flex-container-classes {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-hobbies {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-honda {
+    display:flex;
+    order: 1;
+}
+
+.flex-bmw {
+    display:flex;
+    order: 3;
+}
+
+.flex-ford {
+    display:flex;
+    order: 4;
+}
+
+.flex-toyota {
+    display:flex;
+    order: 2;
+}
+
+.grid-container-quotes {
+    display:grid;
+    grid-template: none;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px;
+    column-gap: 40px;
+    row-gap: 40px;
+    align-items: center;
+}
+
+.quote1 {
+    font-family: Helvetica;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+#grid-container-quotes-id {
+    color:hotpink;
+}
+
+*.quote2{
+    color: red;
+}
+
+p[class*=quote] {
+    font-size: large;
+}
+
+fieldset,nav {
+    color: blueviolet;
+}
+
+ol li{
+    color: orange;
+}
+
+fieldset > label{
+    color:plum;
+}
+
+div.foot-div{
+    color: yellow;
+}
+
+div + p {
+    color:violet;
+}
